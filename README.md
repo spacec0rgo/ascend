@@ -335,4 +335,4 @@ Make sure the Vite proxy in `vite.config.js` points to your local backend addres
 
 ## License
 
-MIT.
+MIT
