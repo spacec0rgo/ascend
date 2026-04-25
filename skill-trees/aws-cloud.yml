@@ -1,0 +1,43 @@
+name: AWS Cloud
+icon: "🌐"
+description: Amazon Web Services certification learning path
+nodes:
+  - id: cloud-practitioner
+    label: AWS Cloud Practitioner
+    description: Foundational cloud concepts and AWS services overview
+    vendor: Amazon
+    url: https://aws.amazon.com/certification/certified-cloud-practitioner/
+    children:
+      - id: solutions-architect-associate
+        label: Solutions Architect Associate
+        description: Design distributed systems on AWS
+        vendor: Amazon
+        url: https://aws.amazon.com/certification/certified-solutions-architect-associate/
+        children:
+          - id: solutions-architect-pro
+            label: Solutions Architect Professional
+            description: Advanced architectural design on AWS
+            vendor: Amazon
+            url: https://aws.amazon.com/certification/certified-solutions-architect-professional/
+      - id: developer-associate
+        label: Developer Associate
+        description: Develop and maintain AWS-based applications
+        vendor: Amazon
+        url: https://aws.amazon.com/certification/certified-developer-associate/
+        children:
+          - id: devops-pro
+            label: DevOps Engineer Professional
+            description: Provisioning, operating, and managing distributed application systems
+            vendor: Amazon
+            url: https://aws.amazon.com/certification/certified-devops-engineer-professional/
+      - id: sysops-associate
+        label: SysOps Administrator Associate
+        description: Deploy, manage, and operate workloads on AWS
+        vendor: Amazon
+        url: https://aws.amazon.com/certification/certified-sysops-admin-associate/
+        children:
+          - id: devops-pro
+            label: DevOps Engineer Professional
+            description: Provisioning, operating, and managing distributed application systems
+            vendor: Amazon
+            url: https://aws.amazon.com/certification/certified-devops-engineer-professional/

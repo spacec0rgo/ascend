@@ -1,0 +1,43 @@
+name: Cybersecurity
+icon: "🔐"
+description: Cybersecurity certification learning path from fundamentals to specialization
+nodes:
+  - id: comptia-security-plus
+    label: CompTIA Security+
+    description: Core cybersecurity skills and knowledge baseline
+    vendor: CompTIA
+    url: https://www.comptia.org/certifications/security
+    children:
+      - id: comptia-cysa-plus
+        label: CompTIA CySA+
+        description: Behavioral analytics applied to network security
+        vendor: CompTIA
+        url: https://www.comptia.org/certifications/cybersecurity-analyst
+        children:
+          - id: comptia-security-x
+            label: CompTIA SecurityX
+            description: Advanced security for enterprise environments
+            vendor: CompTIA
+            url: https://www.comptia.org/certifications/comptia-advanced-security-practitioner
+      - id: ejpt
+        label: eJPT
+        description: Junior Penetration Tester certification by eLearnSecurity
+        vendor: eLearnSecurity
+        url: https://elearnsecurity.com/product/ejpt-certification/
+        children:
+          - id: ecpptv2
+            label: eCPPTv2
+            description: Certified Professional Penetration Tester
+            vendor: eLearnSecurity
+            url: https://elearnsecurity.com/product/ecpptv2-certification/
+            children:
+              - id: oscp
+                label: OSCP
+                description: Offensive Security Certified Professional — industry gold standard for pentesters
+                vendor: Offensive Security
+                url: https://www.offensive-security.com/pwk-oscp/
+      - id: ceh
+        label: CEH
+        description: Certified Ethical Hacker
+        vendor: EC-Council
+        url: https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/

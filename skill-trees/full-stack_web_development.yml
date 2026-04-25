@@ -1,0 +1,50 @@
+name: Full-Stack Web Development
+icon: "💻"
+description: A real certification path from foundational web standards to advanced full-stack and cloud development.
+nodes:
+  - id: w3cx-fewd
+    label: W3C Front-End Web Developer
+    description: Master HTML5, CSS, and JavaScript from the creators of Web standards. Issued by W3C via edX.
+    vendor: W3C / edX
+    url: https://www.edx.org/certificates/professional-certificate/w3cx-front-end-web-developer
+    children:
+      - id: ciw-html5-css3
+        label: CIW Advanced HTML5 & CSS3 Specialist
+        description: Vendor-neutral specialist certification covering advanced HTML5, CSS3, and responsive design techniques. Exam 1D0-720.
+        vendor: CIW
+        url: https://ciwcertified.com/courses/ciw-advanced-html5-css3-specialist/
+        children:
+          - id: ciw-javascript
+            label: CIW JavaScript Specialist
+            description: Validates skills in building interactive, dynamic websites using JavaScript. Part of the CIW Web Development series.
+            vendor: CIW
+            url: https://ciwcertified.com/courses/ciw-javascript-specialist/
+            children:
+              - id: ciw-db-design
+                label: CIW Database Design Specialist
+                description: Covers relational database design and SQL for web applications. Third pillar of the CIW Web Development series.
+                vendor: CIW
+                url: https://ciwcertified.com/courses/database-design-specialist/
+      - id: meta-frontend
+        label: Meta Front-End Developer
+        description: Industry-recognized professional certificate from Meta covering React, Bootstrap, Figma, and front-end interview prep.
+        vendor: Meta / Coursera
+        url: https://www.coursera.org/professional-certificates/meta-front-end-developer
+        children:
+          - id: meta-backend
+            label: Meta Back-End Developer
+            description: Professional certificate from Meta covering Python, Django, REST APIs, and databases for back-end roles.
+            vendor: Meta / Coursera
+            url: https://www.coursera.org/professional-certificates/meta-back-end-developer
+            children:
+              - id: meta-fullstack
+                label: Meta Full Stack Developer
+                description: End-to-end full-stack specialization from Meta, combining front-end and back-end skills to build complete web applications.
+                vendor: Meta / Coursera
+                url: https://www.coursera.org/specializations/meta-full-stack-developer
+                children:
+                  - id: gcp-cloud-developer
+                    label: Google Professional Cloud Developer
+                    description: Advanced certification validating the ability to build, test, and deploy scalable cloud-native applications on Google Cloud. Requires 3+ years of experience.
+                    vendor: Google Cloud
+                    url: https://cloud.google.com/learn/certification/cloud-developer

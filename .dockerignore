@@ -1,0 +1,11 @@
+### .dockerignore
+# node modules
+node_modules
+# sensitive env variables
+.env
+# Docker-related files
+Dockerfile*
+.dockerignore
+# Git-related files
+.git
+.gitignore
