@@ -9,25 +9,25 @@
 ## Features
 
 ### Interactive Skill Trees
-Visualize certification paths as directed acyclic graphs powered by ReactFlow, with zoom, pan, minimap, and auto-layout
+Visualize certification paths as directed acyclic graphs powered by ReactFlow, with zoom, pan, minimap, and auto-layout.
 
 ![Skill tree layout](/assets/images/ascend_skill_tree.png)
 
 ### Progress Tracking
 
-Mark individual certifications as obtained; progress is persisted per account in PostgreSQL and shown with a real-time progress bar
+Mark individual certifications as obtained; progress is persisted per account in PostgreSQL and shown with a real-time progress bar.
 
 ![Skill tree progress tracking](/assets/images/ascend_progress_tracking.png)
 
 ### Account Settings
 
-Update username, email, and password (with live strength indicators and availability checks); upload or remove a custom profile picture (max 2 MB); auto-generated avatars via boring-avatars when no picture is set
+Update username, email, and password (with live strength indicators and availability checks); upload or remove a custom profile picture (max 2 MB); auto-generated avatars via boring-avatars when no picture is set.
 
 ![Account settings](/assets/images/ascend_account_settings.png)
 
 ### Dark / Light Mode
 
-Full theme toggle with CSS variable theming throughout the UI
+Full theme toggle with CSS variable theming throughout the UI.
 
 ![Dark theme](/assets/images/ascend_home_page_dark.png)
 ![Bright theme](/assets/images/ascend_home_page_bright.png)
