@@ -28,6 +28,7 @@ Update username, email, and password (with live strength indicators and availabi
 ### Dark / Light Mode
 
 Full theme toggle with CSS variable theming throughout the UI
+
 ![Dark theme](/assets/images/ascend_home_page_dark.png)
 ![Bright theme](/assets/images/ascend_home_page_bright.png)
 
