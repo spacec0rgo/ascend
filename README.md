@@ -32,9 +32,14 @@ Full theme toggle with CSS variable theming throughout the UI.
 ![Dark theme](/assets/images/ascend_home_page_dark.png)
 ![Bright theme](/assets/images/ascend_home_page_bright.png)
 
+## Confetti on Completion
+
+A canvas-confetti burst fires when you complete an entire skill tree.
+
+![Ascend completion confetti reward](/assets/images/ascend_completion_confetti.gif)
+
 ### And many more
 
-- **Confetti on Completion** — A canvas-confetti burst fires when you complete an entire skill tree
 - **YAML-Driven Trees** — Add or update learning paths by dropping a `.yml` file into the `skill-trees/` folder; no database migrations required
 - **JWT Authentication** — Stateless auth with bcrypt-hashed passwords; password complexity enforced both client- and server-side
 - **Guest Browsing** — Skill trees are publicly viewable without an account; progress tracking requires login
