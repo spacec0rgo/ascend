@@ -70,7 +70,7 @@ A canvas-confetti burst fires when you complete an entire skill tree.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ascend.git
+git clone https://github.com/spacec0rgo/ascend.git
 cd ascend
 ```
 
